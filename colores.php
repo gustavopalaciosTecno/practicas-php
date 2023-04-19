@@ -1,5 +1,7 @@
 <?php
+include 'index.php';
 
+if(isset($_POST['color'])){
 
 $_POST['color'];
 
@@ -12,6 +14,9 @@ if($_POST['color']=='verde'){
 
 }else{
     echo "el color: ".$_POST['color']." no esta agendado";
+}
+}else{
+    echo "Colocá el nombre de un color por favor !";
 }
 /*
 if($color == "verde"){
@@ -29,4 +34,7 @@ if($color == "verde"){
     
            
     <input type="submit" value="enviar">
+    <ul>
+        <li> <a href="index.php">Limpiar</a></li>
+    </ul>
 </form>

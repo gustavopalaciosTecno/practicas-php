@@ -11,9 +11,12 @@
 <body>
     <h1 style="text-align: center;color:blue">Página de prueba</h1>
     <ul>
-        <li> <a href="home.php">HOME</a></li>
-        <li> <a href="contact.php">CONTACT</a></li>
-        <li> <a href="inscripcion.php">INSCRIPCION</a></li>
+        <li> <a href="home.php">Home</a></li>
+        <li> <a href="contact.php">Contact</a></li>
+        <li> <a href="inscripcion.php">Inscripcion</a></li>
+        <li> <a href="colores.php">Colores</a></li>
+        <li> <a href="par.php">Numeros pares</a></li>
+        <li> <a href="edad.php">Comprobamos tu edad</a></li>
     </ul>
     
  
